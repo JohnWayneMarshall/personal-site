@@ -19,7 +19,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m John Marshall, a recent graduate of the
+      <p>Hi, I&apos;m John Marshall, a graduate of the
         <a href="https://www.uky.edu/"> University of Kentucky </a>
         with dual B.S. degrees in Computer Science and Computer Engineering,
         skilled in Python, C++, and several other programming languages,
