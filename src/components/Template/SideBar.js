@@ -33,7 +33,7 @@ const SideBar = () => (
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes("/resume") ? (
+          {!window.location.pathname.includes('/resume') ? (
             <Link to="/resume" className="button">
               Learn More
             </Link>
