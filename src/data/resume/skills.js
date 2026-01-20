@@ -66,9 +66,9 @@ const skills = [
 // this is a list of colors that I like. The length should be === to the
 // number of categories. Keep the order aligned with the first appearance above.
 const colors = [
-  '#FF0000', // Proficient Programming Languages (red)
-  '#00FF00', // Prior Experience Programming Languages (green)
-  '#0000FF', // Technologies (blue)
+  '#2563EB', // Proficient (blue)
+  '#10B981', // Prior Experience (green/teal)
+  '#F59E0B', // Technologies (amber)
 ];
 
 const categories = [...new Set(skills.map(({ category }) => category))].map(
