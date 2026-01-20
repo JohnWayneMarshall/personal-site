@@ -75,7 +75,7 @@ const categories = [...new Set(skills.map(({ category }) => category))].map(
   (category, index) => ({
     name: category,
     color: colors[index],
-  })
+  }),
 );
 
 export { categories, skills };
