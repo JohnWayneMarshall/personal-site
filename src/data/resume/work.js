@@ -13,17 +13,18 @@
  */
 const work = [
   {
-    name: 'IYKYKnow.ai',
-    position: 'Technical Support / Junior Developer',
+    name: 'IYKYKnow AI',
+    position: 'Junior Developer (Full-Stack / AI)',
     url: 'https://iykyknow.ai/',
     startDate: '2024-05',
-    summary: 'As a Technical Support / Junior Developer at IYKYKnow.ai, I directly contribute to the growth and effectiveness of AI-driven operations in a dynamic, startup environment. My role is crucial in addressing complex technical issues and enhancing our software solutions.',
+    summary:
+      'Full-stack + AI development at an edtech startup shipping production chatbots, retrieval APIs, and subscription provisioning.',
     highlights: [
-      'Analyze business requirements and customize software solutions to meet client specifications.',
-      'Participate in the management, troubleshooting, and support of AI software products.',
-      'Collaborate with development teams to ensure system compatibility and integrate new technologies.',
-      'Engage in continuous learning to stay ahead of emerging technologies, focusing on Python and JavaScript.',
-      'Provide key technical support to clients, solving a variety of software issues within cloud environments.',
+      'Shipped a lesson-aware LMS chat experience with context-gated responses and a prompt-driven quiz engine (last 90 days: 336 queries, p50 2.1s / p95 4.3s end-to-end, ~100% non-error completion).',
+      'Built a context-gated chatbot suite with LMS session handshake, debounced CASEL analysis, persistent history, and voice/TTS avatars.',
+      'Developed a Chatbots API (FastAPI + LlamaIndex) featuring hybrid retrieval (BM25 + vectors) with RRF, streaming responses, entity search/detail, and switchable OpenAI/Anthropic providers.',
+      'Implemented cost guardrails, usage accounting, and PII redaction; added contextual retrieval to reduce retrieval failures (per Anthropic reporting: 49–67% fewer failures).',
+      'Built Stripe Checkout + webhook provisioning flows for partner microsites with Clerk auth and self-serve subscriptions.',
     ],
   },
   {
@@ -32,12 +33,13 @@ const work = [
     url: 'https://www.lowes.com/',
     startDate: '2021-06',
     endDate: '2023-06',
-    summary: 'As a Sales Associate at Lowe’s, I played a key role in enhancing customer satisfaction through direct support, maintaining inventory accuracy, and safely handling products with heavy equipment. My tenure also included personal development through the Lowe’s tuition reimbursement program.',
+    summary:
+      'Supported customer needs, maintained inventory accuracy, and safely operated heavy equipment while completing dual engineering degrees.',
     highlights: [
-      'Leveraged the Lowe’s tuition reimbursement program to support educational expenses.',
-      'Utilized effective communication skills to assist customers with inquiries and needs.',
-      'Conducted inventory adjustments to optimize stock levels.',
-      'Operated various types of heavy equipment and replenished products.',
+      'Leveraged Lowe’s tuition reimbursement while completing dual engineering degrees.',
+      'Assisted customers with product selection, troubleshooting, and project guidance.',
+      'Performed inventory adjustments and restocking to improve availability.',
+      'Safely operated heavy equipment to move and replenish materials.',
     ],
   },
 ];
